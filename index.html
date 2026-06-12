@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Dog Grooming - Professional Pet Grooming Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-paw"></i>
+                    <span>Mobile Dog Grooming</span>
+                </div>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Professional Mobile Dog Grooming</h1>
+            <p>We come to you! Expert grooming services right at your doorstep</p>
+            <button class="cta-button" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                Book an Appointment
+            </button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-shower"></i>
+                    <h3>Full Grooming</h3>
+                    <p>Complete grooming package including bath, haircut, nail trim, ear cleaning, and anal gland expression.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-cut"></i>
+                    <h3>Breed-Specific Cuts</h3>
+                    <p>Expert breed-specific styling tailored to your dog's breed standards and your preferences.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>De-matting Services</h3>
+                    <p>Gentle de-matting for matted coats. We handle even the most stubborn tangles with care.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-bed"></i>
+                    <h3>Senior Dog Care</h3>
+                    <p>Specialized grooming for senior dogs with extra patience and gentle handling.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-baby"></i>
+                    <h3>Puppy Grooming</h3>
+                    <p>Gentle first-time grooming experience to help puppies get comfortable with professional grooming.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-spa"></i>
+                    <h3>Spa Treatments</h3>
+                    <p>Luxury spa treatments including oatmeal baths, moisturizing treatments, and aromatherapy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2>Pricing</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Small Dogs</h3>
+                    <p class="weight">(Up to 25 lbs)</p>
+                    <div class="price">$65</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Full Bath & Dry</li>
+                        <li><i class="fas fa-check"></i> Haircut</li>
+                        <li><i class="fas fa-check"></i> Nail Trim</li>
+                        <li><i class="fas fa-check"></i> Ear Cleaning</li>
+                    </ul>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="badge">Popular</div>
+                    <h3>Medium Dogs</h3>
+                    <p class="weight">(26-50 lbs)</p>
+                    <div class="price">$85</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Full Bath & Dry</li>
+                        <li><i class="fas fa-check"></i> Haircut</li>
+                        <li><i class="fas fa-check"></i> Nail Trim</li>
+                        <li><i class="fas fa-check"></i> Ear Cleaning</li>
+                    </ul>
+                </div>
+                <div class="pricing-card">
+                    <h3>Large Dogs</h3>
+                    <p class="weight">(51-80 lbs)</p>
+                    <div class="price">$110</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Full Bath & Dry</li>
+                        <li><i class="fas fa-check"></i> Haircut</li>
+                        <li><i class="fas fa-check"></i> Nail Trim</li>
+                        <li><i class="fas fa-check"></i> Ear Cleaning</li>
+                    </ul>
+                </div>
+                <div class="pricing-card">
+                    <h3>Extra Large</h3>
+                    <p class="weight">(80+ lbs)</p>
+                    <div class="price">$135</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Full Bath & Dry</li>
+                        <li><i class="fas fa-check"></i> Haircut</li>
+                        <li><i class="fas fa-check"></i> Nail Trim</li>
+                        <li><i class="fas fa-check"></i> Ear Cleaning</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Before & After Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=300&fit=crop" alt="Golden Retriever grooming">
+                    <div class="overlay">
+                        <p>Golden Retriever Full Grooming</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1633722715463-d30628519e64?w=400&h=300&fit=crop" alt="Poodle grooming">
+                    <div class="overlay">
+                        <p>Poodle Breed-Specific Cut</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad576?w=400&h=300&fit=crop" alt="Shih Tzu grooming">
+                    <div class="overlay">
+                        <p>Shih Tzu Premium Grooming</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1612536315141-a5e15d6e6949?w=400&h=300&fit=crop" alt="Terrier grooming">
+                    <div class="overlay">
+                        <p>Terrier Precision Cut</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1612253227082-18e340f752b2?w=400&h=300&fit=crop" alt="Husky grooming">
+                    <div class="overlay">
+                        <p>Husky Grooming Service</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1558806995-f68fe8cfb4b5?w=400&h=300&fit=crop" alt="Dachshund grooming">
+                    <div class="overlay">
+                        <p>Dachshund Spa Treatment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Us</h2>
+                    <p>Welcome to Mobile Dog Grooming, where we believe that every dog deserves professional, compassionate care in the comfort of their own home.</p>
+                    <p>With over 10 years of experience in the pet grooming industry, our certified groomers are dedicated to providing your furry friends with top-quality grooming services. We bring our fully equipped mobile grooming van right to your doorstep, eliminating stress and anxiety for your beloved pets.</p>
+                    <h3>Why Choose Us?</h3>
+                    <ul class="about-list">
+                        <li><i class="fas fa-star"></i> Certified and experienced groomers</li>
+                        <li><i class="fas fa-star"></i> Convenient mobile grooming service</li>
+                        <li><i class="fas fa-star"></i> High-quality, pet-safe products</li>
+                        <li><i class="fas fa-star"></i> Personalized grooming plans</li>
+                        <li><i class="fas fa-star"></i> Stress-free environment for your pet</li>
+                        <li><i class="fas fa-star"></i> Flexible scheduling options</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1612323315957-62c9d2543f28?w=500&h=400&fit=crop" alt="Professional groomer with dog">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Book Your Appointment</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>(555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@mobiledoggrooming.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Monday - Saturday: 8:00 AM - 6:00 PM<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Service Area</h4>
+                            <p>Serving a 15-mile radius from downtown</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="tel" placeholder="Your Phone" required>
+                    <input type="text" placeholder="Dog's Name">
+                    <textarea placeholder="Tell us about your dog and any special requests..." rows="5" required></textarea>
+                    <button type="submit" class="submit-btn">Book Appointment</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Mobile Dog Grooming</h4>
+                    <p>Professional pet grooming services delivered to your home.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mobile Dog Grooming. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
